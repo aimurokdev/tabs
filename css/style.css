@@ -1,0 +1,46 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+ .tabs img {
+    height: 200px;
+     padding: 50px 20px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label {
+    font-size: 25px;
+    font-weight: 900;
+    font-family: sans-serif;
+    padding: 10px;
+}
+.tabs input {
+    display: none;
+}
+#html:checked ~ .css ,
+#html:checked ~ .js {
+
+    opacity:0.2;
+}
+#css:checked ~ .html,
+#css:checked ~ .js {
+
+    opacity: 0.2;
+}
+#js:checked ~ .css,
+#js:checked ~ .html {
+
+    opacity: 0.2;
+}
+
+
+
+
+
